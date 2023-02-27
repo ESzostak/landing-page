@@ -409,7 +409,7 @@ body .full-width {
         color: var(--white-color);
         font-size: 3rem;
         line-height: 2.3rem;
-        width: 3rem;
+        width: 3.5rem;
         height: 3rem;
         cursor: pointer;
         text-align: center;
@@ -434,5 +434,11 @@ body .full-width {
 
     .menu-spacing {
         display: none;
+    }
+}
+
+@media (max-width: 380px) { 
+    h2 {
+        font-size: 4rem;
     }
 }
