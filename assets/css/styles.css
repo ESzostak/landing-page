@@ -413,7 +413,6 @@ body .full-width {
         height: 3rem;
         cursor: pointer;
         text-align: center;
-        border-radius: 50%;
     }
 
     .close-menu:checked~.menu{
